@@ -2,21 +2,23 @@ import React from "react";
 
 export default function SearchCity() {
   return (
-    <form id="search-form" className="mb-3">
-      <div className="row">
-        <div className="col-9">
+    <div className="clear-fix">
+      <form id="search-form" className="mb-3 float-left">
+        <div class="input-group">
           <input
             type="search"
             placeholder="Type a city..."
-            className="form-control"
+            class="form-control"
             id="city-input"
-            autocomplete="off"
           />
+          <button class="btn btn-primary" type="button">
+            Search
+          </button>
+          <button class="btn btn-success" type="button">
+            Current
+          </button>
         </div>
-        <div className="col-3">
-          <input type="submit" value="Search" className="btn btn-primary" />
-        </div>
-      </div>
-    </form>
+      </form>
+    </div>
   );
 }

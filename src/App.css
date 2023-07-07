@@ -89,3 +89,13 @@ li:first-letter {
 .weather-forecast-temperature-min {
   opacity: 0.5;
 }
+
+/* .float-left {
+  float: left !important;
+}
+
+.clear-fix::after {
+  display: block;
+  clear: both;
+  content: "";
+} */
